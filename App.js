@@ -1,3 +1,4 @@
+import { StyleSheet } from "react-native";
 import React, { useContext } from "react";
 import { Provider } from "react-redux";
 import "react-native-gesture-handler";
@@ -9,6 +10,8 @@ import { modules, reducers, hooks, initialRoute } from "@modules";
 import { connectors } from "@store";
 const Stack = createStackNavigator();
 import { GlobalOptionsContext, OptionsContext, getOptions } from "@options";
+import backIcon from './screens/contact-us/icons8-back-50.png';
+import { Image } from "react-native";
 
 const getNavigation = (modules, screens, initialRoute) => {
   const Navigation = () => {
@@ -25,9 +28,16 @@ const getNavigation = (modules, screens, initialRoute) => {
 
       return <Stack.Screen key={name} name={name} component={Component} />;
     });
-    const screenOptions = {
-      headerShown: false
+
+    const CustomBackButton = () => {
+      return <Image style={_styles.YaqWDBWE} source={backIcon} />;
     };
+
+    const screenOptions = {
+      headerShown: true,
+      headerBackImage: () => <CustomBackButton />
+    };
+    console.log("ROUTESS", routes);
     return <NavigationContainer>
         <Stack.Navigator initialRouteName={initialRoute} screenOptions={screenOptions}>
           {routes}
@@ -67,3 +77,12 @@ const App = () => {
 };
 
 export default App;
+
+const _styles = StyleSheet.create({
+  YaqWDBWE: {
+    height: 25,
+    width: 25,
+    position: "absolute",
+    marginTop: -8
+  }
+});
