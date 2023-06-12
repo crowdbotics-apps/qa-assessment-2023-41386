@@ -8,6 +8,7 @@ export const loginRequest = createAsyncThunk(
     try {
       const response = await api.apiLoginRequest(payload)
       console.log("repsone", response)
+      
       return response.data
     } catch (error) {
       console.log("errr ;logj", error.response)

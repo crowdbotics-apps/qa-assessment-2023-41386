@@ -12,6 +12,7 @@ const Stack = createStackNavigator();
 import { GlobalOptionsContext, OptionsContext, getOptions } from "@options";
 import backIcon from './screens/contact-us/icons8-back-50.png';
 import { Image } from "react-native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const getNavigation = (modules, screens, initialRoute) => {
   const Navigation = () => {
@@ -38,8 +39,14 @@ const getNavigation = (modules, screens, initialRoute) => {
       headerBackImage: () => <CustomBackButton />
     };
     console.log("ROUTESS", routes);
+
+    // const updateStack = async() => {
+    //   const accessToken = await AsyncStorage.getItem("access_token")
+    //  return accessToken
+    // }
+    // console.log("updateStack()", updateStack()._z)
     return <NavigationContainer>
-        <Stack.Navigator initialRouteName={initialRoute} screenOptions={screenOptions}>
+        <Stack.Navigator initialRouteName={"Untitled15"} screenOptions={screenOptions}>
           {routes}
         </Stack.Navigator>
       </NavigationContainer>;

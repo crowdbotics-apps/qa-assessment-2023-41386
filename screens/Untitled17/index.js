@@ -1,37 +1,48 @@
-import React from "react";
-import { StyleSheet, View, Text, FlatList } from "react-native";
+import React from "react"
+import { StyleSheet, View, Text, FlatList } from "react-native"
+import { useDispatch, useSelector } from "react-redux"
 
 const SpotPrices = () => {
-  const data = [{
-    id: "1",
-    name: "Test Name 1",
-    quantity: 3,
-    price: 45
-  }, {
-    id: "2",
-    name: "Test Name 2",
-    quantity: 2,
-    price: 30
-  }, {
-    id: "3",
-    name: "Test Name 3",
-    quantity: 1,
-    price: 15
-  }, {
-    id: "3",
-    name: "Test Name 3",
-    quantity: 1,
-    price: 15
-  }, {
-    id: "3",
-    name: "Test Name 3",
-    quantity: 1,
-    price: 15
-  }];
+  const data = [
+    {
+      id: "1",
+      name: "Test Name 1",
+      quantity: 3,
+      price: 45
+    },
+    {
+      id: "2",
+      name: "Test Name 2",
+      quantity: 2,
+      price: 30
+    },
+    {
+      id: "3",
+      name: "Test Name 3",
+      quantity: 1,
+      price: 15
+    },
+    {
+      id: "3",
+      name: "Test Name 3",
+      quantity: 1,
+      price: 15
+    },
+    {
+      id: "3",
+      name: "Test Name 3",
+      quantity: 1,
+      price: 15
+    }
+  ]
 
-  const renderItem = ({
-    item
-  }) => <View style={styles.card}>
+  const dispatch = useDispatch()
+
+  const state = useSelector(state => state)
+  console.log("STATEEE", state)
+
+  const renderItem = ({ item }) => (
+    <View style={styles.card}>
       <View style={styles.cardHeader}>
         <Text style={styles.name}>{item.name}</Text>
         <Text style={styles.price}>${item.price}</Text>
@@ -39,15 +50,21 @@ const SpotPrices = () => {
       <View style={styles.cardBody}>
         <Text style={styles.quantity}>Quantity: {item.quantity}</Text>
       </View>
-    </View>;
+    </View>
+  )
 
-  return <View style={styles.container}>
-      {
-      /* <Text style={styles.heading}>Spot prices</Text> */
-    }
-      <FlatList data={data} renderItem={renderItem} keyExtractor={item => item.id} contentContainerStyle={styles.scrollStyles} />
-    </View>;
-};
+  return (
+    <View style={styles.container}>
+      {/* <Text style={styles.heading}>Spot prices</Text> */}
+      <FlatList
+        data={data}
+        renderItem={renderItem}
+        keyExtractor={item => item.id}
+        contentContainerStyle={styles.scrollStyles}
+      />
+    </View>
+  )
+}
 
 const styles = StyleSheet.create({
   container: {
@@ -102,5 +119,5 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: "bold"
   }
-});
-export default SpotPrices;
+})
+export default SpotPrices
