@@ -1,6 +1,6 @@
 import axios from "axios";
 const qaassessmentnewAPI = axios.create({
-  baseURL: "https://qa-assessment-new-2-39768.botics.co",
+  baseURL: "https://qa-assessment-2023-41386.botics.co",
   headers: {
     Accept: "application/json",
     "Content-Type": "application/json"

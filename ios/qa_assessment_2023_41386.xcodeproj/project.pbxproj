@@ -11,7 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		159E1C2AA7DB4FF30D970579 /* libPods-qa_assessment_2023_41386.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E53771CE9E0521FB0D5124 /* libPods-qa_assessment_2023_41386.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		E368DA1986F9A4AB0516F839 /* libPods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 535983B525503DD7BEB17870 /* libPods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +30,20 @@
 		00E356EE1AD99517003FC87E /* qa_assessment_2023_41386Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qa_assessment_2023_41386Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* qa_assessment_2023_41386Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qa_assessment_2023_41386Tests.m; sourceTree = "<group>"; };
+		092E866CD5E0039B5BF483C0 /* Pods-qa_assessment_2023_41386.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qa_assessment_2023_41386.debug.xcconfig"; path = "Target Support Files/Pods-qa_assessment_2023_41386/Pods-qa_assessment_2023_41386.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* qa_assessment_2023_41386.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qa_assessment_2023_41386.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = qa_assessment_2023_41386/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = qa_assessment_2023_41386/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = qa_assessment_2023_41386/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = qa_assessment_2023_41386/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = qa_assessment_2023_41386/main.m; sourceTree = "<group>"; };
+		4574DA7F9174D3B8E55A5DA4 /* Pods-qa_assessment_2023_41386.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qa_assessment_2023_41386.release.xcconfig"; path = "Target Support Files/Pods-qa_assessment_2023_41386/Pods-qa_assessment_2023_41386.release.xcconfig"; sourceTree = "<group>"; };
+		535983B525503DD7BEB17870 /* libPods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E53771CE9E0521FB0D5124 /* libPods-qa_assessment_2023_41386.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qa_assessment_2023_41386.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = qa_assessment_2023_41386/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DE3463C86CBB890778ED269 /* Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests.release.xcconfig"; path = "Target Support Files/Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests/Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FB36BE8E2DFD685CC6D101EC /* Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests.debug.xcconfig"; path = "Target Support Files/Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests/Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E368DA1986F9A4AB0516F839 /* libPods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159E1C2AA7DB4FF30D970579 /* libPods-qa_assessment_2023_41386.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,8 +100,22 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				53E53771CE9E0521FB0D5124 /* libPods-qa_assessment_2023_41386.a */,
+				535983B525503DD7BEB17870 /* libPods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63E8E5F0587DA7C454165FF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				092E866CD5E0039B5BF483C0 /* Pods-qa_assessment_2023_41386.debug.xcconfig */,
+				4574DA7F9174D3B8E55A5DA4 /* Pods-qa_assessment_2023_41386.release.xcconfig */,
+				FB36BE8E2DFD685CC6D101EC /* Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests.debug.xcconfig */,
+				8DE3463C86CBB890778ED269 /* Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -109,6 +133,7 @@
 				00E356EF1AD99517003FC87E /* qa_assessment_2023_41386Tests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				63E8E5F0587DA7C454165FF0 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -131,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "qa_assessment_2023_41386Tests" */;
 			buildPhases = (
+				831E2F775A5B1B27E9832182 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				28A38F3FC00A6C1944E4A8EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,11 +176,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "qa_assessment_2023_41386" */;
 			buildPhases = (
+				4E8429EFC0D7CF0250DC426A /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				ED08DD21E5C7D674D45E7AF3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +263,84 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
+		28A38F3FC00A6C1944E4A8EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests/Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests/Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests/Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E8429EFC0D7CF0250DC426A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qa_assessment_2023_41386-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		831E2F775A5B1B27E9832182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED08DD21E5C7D674D45E7AF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qa_assessment_2023_41386/Pods-qa_assessment_2023_41386-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qa_assessment_2023_41386/Pods-qa_assessment_2023_41386-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-qa_assessment_2023_41386/Pods-qa_assessment_2023_41386-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -286,6 +393,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB36BE8E2DFD685CC6D101EC /* Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -312,6 +420,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DE3463C86CBB890778ED269 /* Pods-qa_assessment_2023_41386-qa_assessment_2023_41386Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -335,6 +444,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 092E866CD5E0039B5BF483C0 /* Pods-qa_assessment_2023_41386.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -360,6 +470,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4574DA7F9174D3B8E55A5DA4 /* Pods-qa_assessment_2023_41386.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -414,6 +525,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -478,6 +590,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
