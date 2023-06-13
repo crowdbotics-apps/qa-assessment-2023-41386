@@ -1,6 +1,6 @@
 from rest_framework import authentication
-from portfolio.models import Coin,MetalType,Offer,OfferList
-from .serializers import CoinSerializer,MetalTypeSerializer,OfferSerializer,OfferListSerializer
+from portfolio.models import Coin,ContactUs,MetalType,Offer,OfferList
+from .serializers import CoinSerializer,ContactUsSerializer,MetalTypeSerializer,OfferSerializer,OfferListSerializer
 from rest_framework import viewsets
 
 class MetalTypeViewSet(viewsets.ModelViewSet):
@@ -22,3 +22,8 @@ class OfferViewSet(viewsets.ModelViewSet):
     serializer_class = OfferSerializer
     authentication_classes = (authentication.SessionAuthentication, authentication.TokenAuthentication)
     queryset = Offer.objects.all()
+
+class ContactUsViewSet(viewsets.ModelViewSet):
+    serializer_class = ContactUsSerializer
+    authentication_classes = (authentication.SessionAuthentication, authentication.TokenAuthentication)
+    queryset = ContactUs.objects.all()

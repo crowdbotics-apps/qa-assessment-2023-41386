@@ -31,7 +31,10 @@ urlpatterns = [
     path("rest-auth/", include("rest_auth.urls")),
     # Override email confirm to use allauth's HTML view instead of rest_auth's API view
     path("rest-auth/registration/account-confirm-email/<str:key>/", confirm_email),
-    path("rest-auth/registration/", include("rest_auth.registration.urls")),
+    path("rest-auth/registration/", include("rest_auth.registration.urls")),path("company/", include("company.urls")), path("home/", include("home.urls")), path("portfolio/", include("portfolio.urls"))
+
+
+
 ]
 
 admin.site.site_header = "qa-assessment-2023"

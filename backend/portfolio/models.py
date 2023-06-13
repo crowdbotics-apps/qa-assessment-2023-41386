@@ -2,9 +2,9 @@ from django.conf import settings
 from django.db import models
 class MetalType(models.Model):
     'Generated Model'
-    name = models.CharField(max_length=256,blank=True,)
+    name = models.CharField(blank=True,max_length=256,)
     price = models.FloatField(blank=True,)
-    date = models.DateField(auto_now=True,blank=True,)
+    date = models.DateField(blank=True,auto_now=True,)
 class Coin(models.Model):
     'Generated Model'
     name = models.CharField(max_length=256,)
@@ -25,5 +25,8 @@ class Offer(models.Model):
     status = models.CharField(max_length=256,)
     created_date = models.DateTimeField(auto_now=True,)
     offerer = models.ForeignKey("users.User",null=True,blank=True,on_delete=models.CASCADE,related_name="offer_offerer",)
+class ContactUs(models.Model):
+    'Generated Model'
+    message = models.TextField()
 
 # Create your models here.
