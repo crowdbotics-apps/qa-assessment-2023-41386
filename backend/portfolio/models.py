@@ -25,8 +25,5 @@ class Offer(models.Model):
     status = models.CharField(max_length=256,)
     created_date = models.DateTimeField(auto_now=True,)
     offerer = models.ForeignKey("users.User",null=True,blank=True,on_delete=models.CASCADE,related_name="offer_offerer",)
-class ContactUs(models.Model):
-    'Generated Model'
-    message = models.TextField()
 
 # Create your models here.
